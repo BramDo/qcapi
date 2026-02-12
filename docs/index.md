@@ -34,3 +34,7 @@ export QCAPI_SERVICE_CRN="crn:..."
 ## Windows tray app
 
 Er is ook een eenvoudige Windows tray app beschikbaar in de map `windows/`.
+
+Voorbeeld van het tray-menu:
+
+![QCAPI Tray menu](assets/tray-menu.png)
