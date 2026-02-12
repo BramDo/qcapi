@@ -5,15 +5,15 @@ title: qcapi
 
 # qcapi
 
-Kleine Python client + CLI voor de IBM Quantum Qiskit Runtime REST API.
+A small Python client + CLI for the IBM Quantum Qiskit Runtime REST API.
 
-Met `qcapi` kun je snel endpoints testen zoals:
+With `qcapi`, you can quickly test endpoints such as:
 - `versions`
 - `backends`
 - `programs`
 - `jobs`
 
-## Snelle start
+## Quick start
 
 ```bash
 python3 -m qcapi config
@@ -24,7 +24,7 @@ python3 -m qcapi recent-quantum-jobs
 
 ## Credentials
 
-Gebruik een account uit `~/.qiskit/qiskit-ibm.json` (met `channel: ibm_cloud`) of zet:
+Use an account from `~/.qiskit/qiskit-ibm.json` (with `channel: ibm_cloud`) or set:
 
 ```bash
 export IBM_CLOUD_API_KEY="..."
@@ -33,8 +33,8 @@ export QCAPI_SERVICE_CRN="crn:..."
 
 ## Windows tray app
 
-Er is ook een eenvoudige Windows tray app beschikbaar in de map `windows/`.
+A simple Windows tray app is also available in the `windows/` folder.
 
-Voorbeeld van het tray-menu:
+Tray menu example:
 
 ![QCAPI Tray menu](assets/tray-menu.png)

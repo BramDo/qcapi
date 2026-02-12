@@ -1,4 +1,4 @@
 title: qcapi
-description: Kleine helper voor IBM Quantum Qiskit Runtime REST API
+description: Small helper for IBM Quantum Qiskit Runtime REST API
 theme: minima
 markdown: kramdown
